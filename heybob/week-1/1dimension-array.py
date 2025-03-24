@@ -39,7 +39,11 @@ N, M = list(map(int, input().split()))
 # print(N) 출력 : 2
 # print(M)  출력 : 2
 arr = [list(map(int, input().split())) for _ in range(N)]
+# 입력:
+# 1 2 3 4
+# 5 6 7 8
 print(arr)
+# 출력: [[1, 2, 3, 4], [5, 6, 7, 8]]
 
 # 느리니까 2차원 배열도 이렇게 입력받자
 import sys
