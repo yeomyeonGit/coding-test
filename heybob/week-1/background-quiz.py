@@ -64,5 +64,5 @@ my_set = {1,2,3,4}
 # TypeError: 'set' object is not subscriptable
 my_dict = {1:'a',2:'b',3:'c',4:'d'}
 
-print(my_dict[0])    
+# print(my_dict[0])    
 
