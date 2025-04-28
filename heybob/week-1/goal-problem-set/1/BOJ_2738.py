@@ -1,17 +1,15 @@
 n, m = map(int, input().split())
+# print(n, m)
 
-lst_1 = []
-for i in range(n):
-    numbers = list(map(int, input().split()))
-    lst_1.append(numbers)
+arr1 = [list(map(int, input().split())) for _ in range(n)]
+arr2 = [list(map(int, input().split())) for _ in range(n)]
 
-lst_2 = []
-for i in range(n):
-    numbers = list(map(int, input().split()))
-    lst_2.append(numbers)
+# print(arr1)
+# print(arr2)
+
 
 for i in range(n):
     tmp = []
     for j in range(m):
-        tmp.append(lst_1[i][j] + lst_2[i][j])
+        tmp.append(arr1[i][j] + arr2[i][j])
     print(*tmp)
